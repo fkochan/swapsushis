@@ -90,8 +90,8 @@ async function SwapwithCode() {
 
     //console.log(SwapTokensTxn)
 
-    //let SignTxn = await web3.eth.accounts.signTransaction(SwapTokensTxn, pk)
-    //let SendTxn = await web3.eth.sendSignedTransaction(SignTxn.rawTransaction, handleData)
+    let SignTxn = await web3.eth.accounts.signTransaction(SwapTokensTxn, pk)
+    let SendTxn = await web3.eth.sendSignedTransaction(SignTxn.rawTransaction, handleData)
 }
 
 SwapwithCode()
