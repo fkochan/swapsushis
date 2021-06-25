@@ -1,9 +1,9 @@
 # swapsushi
-Currently the index.js file demonstrates how to swap ETH for DAI on SushiSwap (Ropsten Testnet)
+Each folder demonstrates how to interact with the SushiSwap protcol on the Ropsten testnet.
 
 If you want to use this repo, you'll need to add a `.env` file which has two variables (PK and RPC_URL, i.e. your private key and web3provider)
 
-Once you clone the repo, navigate into the project dir and then run `npm install`, then `npm start`
+Once you clone the repo, navigate into the main directory and run `npm install`, then navigate into specific example dir and then run `node index.js`
 
 This has only been tested on Ropsten...
 
